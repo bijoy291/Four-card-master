@@ -79,3 +79,45 @@ font-size: 35px;
   margin-top: 135px;
 }
 /* content item end***** */
+
+/* responsive start**** */
+
+@media only screen and (max-width: 600px) {
+  .content{
+  flex-wrap: wrap;
+  }
+.child1{
+  margin-top: 0;
+}
+.child4{
+  margin-top: 10px;
+}
+}
+
+/* phone responsive start** */
+@media only screen and (max-width: 400px) {
+  .content{
+  flex-wrap: wrap;
+}
+.p1{
+font-size: 25px;
+font-family: serif;
+font-style: normal;
+margin-bottom: 1%;
+}
+.bottom h1{
+color: rgb(36, 33, 33);
+margin-top: 1%;
+font-size: 25px;
+}
+.p2{
+  font-size: 11px;
+  color: gray;
+}
+.child1{
+  margin-top: 0;
+}
+.child4{
+  margin-top: 10px;
+}
+}
